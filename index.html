@@ -3,31 +3,42 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>OAAHFASHIONGROUP LLC | Global E-Commerce Holdings</title>
-<meta name="description" content="OAAHFASHIONGROUP LLC is a premier e-commerce infrastructure and brand management company curating, managing and scaling high-performance athletic apparel storefronts globally." />
+<meta name="robots" content="index, follow" />
+<title>OAAHFASHIONGROUP LLC | Global Digital Retail Infrastructure &amp; Brand Holdings</title>
+<meta name="description" content="OAAHFASHIONGROUP LLC is a premier digital infrastructure and brand management holding company engineering high-performance athletic apparel and lifestyle architectures for the global market." />
+<meta name="author" content="OAAHFASHIONGROUP LLC" />
+<meta name="theme-color" content="#111827" />
+
+<!-- Inline SVG Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23111827'/><path d='M16 16h14v14H16zM34 16h14v14H34zM16 34h14v14H16zM34 34l14 14M48 34L34 48' stroke='white' stroke-width='3' fill='none' stroke-linecap='square'/></svg>" />
+
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 <script>
   tailwind.config = {
     theme: {
       extend: {
-        fontFamily: {
-          sans: ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
-        },
-        letterSpacing: {
-          'tightest': '-0.05em',
-        }
+        fontFamily: { sans: ['Inter', 'Helvetica', 'Arial', 'sans-serif'] },
+        letterSpacing: { 'tightest': '-0.05em' }
       }
     }
   }
 </script>
+
 <style>
   html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-  .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.78) 100%); }
+  body {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .hero-overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.82) 100%);
+  }
   details > summary { list-style: none; cursor: pointer; }
   details > summary::-webkit-details-marker { display: none; }
   details[open] .accordion-icon { transform: rotate(45deg); }
@@ -36,71 +47,98 @@
   .nav-link::after {
     content: '';
     position: absolute;
-    left: 0; bottom: -4px;
+    left: 0; bottom: -6px;
     width: 0; height: 1px;
     background: #111827;
     transition: width 0.3s ease;
   }
   .nav-link:hover::after { width: 100%; }
-  .capability-card { transition: transform 0.35s ease, box-shadow 0.35s ease; }
-  .capability-card:hover { transform: translateY(-4px); box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15); }
+  .capability-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  }
+  .capability-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 60px -16px rgba(17, 24, 39, 0.18);
+    border-color: #111827;
+  }
+  .form-input {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .form-input:focus {
+    outline: none;
+    border-color: #111827;
+    box-shadow: 0 0 0 1px #111827;
+  }
 </style>
 </head>
 <body class="bg-white text-gray-900 antialiased">
 
-  <!-- ========== NAVIGATION ========== -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+  <!-- ============================ NAVIGATION ============================ -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
     <nav class="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
-      <a href="#top" class="text-lg md:text-xl font-extrabold tracking-tightest text-gray-900">
-        OAAHFASHIONGROUP <span class="text-gray-400 font-light">LLC</span>
+      <a href="#top" class="flex items-center gap-3 group" aria-label="OAAHFASHIONGROUP LLC home">
+        <!-- Inline Geometric SVG Logo -->
+        <svg width="36" height="36" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="64" height="64" fill="#111827"/>
+          <rect x="14" y="14" width="14" height="14" fill="none" stroke="#ffffff" stroke-width="3"/>
+          <rect x="36" y="14" width="14" height="14" fill="none" stroke="#ffffff" stroke-width="3"/>
+          <rect x="14" y="36" width="14" height="14" fill="none" stroke="#ffffff" stroke-width="3"/>
+          <line x1="36" y1="36" x2="50" y2="50" stroke="#ffffff" stroke-width="3" stroke-linecap="square"/>
+          <line x1="50" y1="36" x2="36" y2="50" stroke="#ffffff" stroke-width="3" stroke-linecap="square"/>
+        </svg>
+        <span class="text-base md:text-lg font-extrabold tracking-tightest text-gray-900">
+          OAAHFASHIONGROUP <span class="text-gray-400 font-light">LLC</span>
+        </span>
       </a>
-      <ul class="hidden md:flex items-center space-x-10 text-sm font-medium text-gray-700 uppercase tracking-wider">
+      <ul class="hidden lg:flex items-center space-x-8 text-[13px] font-medium text-gray-700 uppercase tracking-[0.15em]">
         <li><a href="#mission" class="nav-link hover:text-gray-900">Mission</a></li>
         <li><a href="#capabilities" class="nav-link hover:text-gray-900">Capabilities</a></li>
         <li><a href="#operations" class="nav-link hover:text-gray-900">Operations</a></li>
         <li><a href="#leadership" class="nav-link hover:text-gray-900">Leadership</a></li>
+        <li><a href="#contact" class="nav-link hover:text-gray-900">Contact</a></li>
         <li><a href="#legal" class="nav-link hover:text-gray-900">Legal</a></li>
       </ul>
-      <button id="mobile-toggle" class="md:hidden text-gray-900 text-xl" aria-label="Open menu">
+      <button id="mobile-toggle" class="lg:hidden text-gray-900 text-xl" aria-label="Open menu" aria-expanded="false">
         <i class="fa-solid fa-bars"></i>
       </button>
     </nav>
-    <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 bg-white">
-      <ul class="px-6 py-4 space-y-4 text-sm font-medium text-gray-700 uppercase tracking-wider">
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-200 bg-white">
+      <ul class="px-6 py-6 space-y-5 text-sm font-medium text-gray-700 uppercase tracking-[0.15em]">
         <li><a href="#mission" class="block">Mission</a></li>
         <li><a href="#capabilities" class="block">Capabilities</a></li>
         <li><a href="#operations" class="block">Operations</a></li>
         <li><a href="#leadership" class="block">Leadership</a></li>
+        <li><a href="#contact" class="block">Contact</a></li>
         <li><a href="#legal" class="block">Legal</a></li>
       </ul>
     </div>
   </header>
 
-  <!-- ========== HERO ========== -->
+  <!-- ============================ HERO ============================ -->
   <section id="top" class="relative h-screen min-h-[640px] w-full overflow-hidden">
     <img
       src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2500&auto=format&fit=crop"
-      alt="Athletic retail environment"
+      alt="Premium retail and athletic apparel environment"
       class="absolute inset-0 w-full h-full object-cover"
     />
     <div class="absolute inset-0 hero-overlay"></div>
     <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 h-full flex flex-col justify-center">
-      <p class="text-white/70 uppercase tracking-[0.3em] text-xs md:text-sm mb-6 font-medium">
-        Global E-Commerce Holdings
+      <p class="text-white/70 uppercase tracking-[0.35em] text-xs md:text-sm mb-6 font-medium">
+        Global E-Commerce Holdings &amp; Brand Infrastructure
       </p>
       <h1 class="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tightest leading-[1.05] max-w-5xl">
         Empowering the Next Generation of Digital Retail.
       </h1>
       <p class="mt-8 text-white/85 text-lg md:text-xl max-w-3xl leading-relaxed font-light">
-        OAAHFASHIONGROUP is a premier e-commerce infrastructure and brand management company. We curate, manage, and scale high-performance athletic apparel and lifestyle storefronts for a global audience.
+        OAAHFASHIONGROUP LLC is a premier digital infrastructure and brand management company. We curate, engineer, and scale high-performance athletic apparel and lifestyle architectures for a global market.
       </p>
       <div class="mt-12 flex flex-wrap gap-4">
-        <a href="#capabilities" class="inline-flex items-center px-8 py-4 bg-white text-gray-900 text-sm font-semibold uppercase tracking-wider hover:bg-gray-100 transition">
-          Our Capabilities
+        <a href="#capabilities" class="inline-flex items-center px-8 py-4 bg-white text-gray-900 text-sm font-semibold uppercase tracking-[0.15em] hover:bg-gray-100 transition">
+          Corporate Capabilities
           <i class="fa-solid fa-arrow-right ml-3 text-xs"></i>
         </a>
-        <a href="#operations" class="inline-flex items-center px-8 py-4 border border-white/40 text-white text-sm font-semibold uppercase tracking-wider hover:bg-white/10 transition">
-          Operations Overview
+        <a href="#contact" class="inline-flex items-center px-8 py-4 border border-white/40 text-white text-sm font-semibold uppercase tracking-[0.15em] hover:bg-white/10 transition">
+          Corporate Inquiries
         </a>
       </div>
     </div>
@@ -109,27 +147,27 @@
     </div>
   </section>
 
-  <!-- ========== MISSION ========== -->
+  <!-- ============================ MISSION ============================ -->
   <section id="mission" class="bg-white py-24 lg:py-32">
     <div class="max-w-4xl mx-auto px-6 lg:px-10 text-center">
-      <p class="text-gray-500 uppercase tracking-[0.3em] text-xs font-medium mb-6">Company History &amp; Mission</p>
+      <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">Company History &amp; Mission</p>
       <h2 class="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
         Driven by Performance.<br/>Built for Scale.
       </h2>
       <div class="w-16 h-px bg-gray-900 mx-auto my-10"></div>
       <p class="text-gray-600 text-lg md:text-xl leading-relaxed font-light">
-        Established as a modern digital holding entity, OAAHFASHIONGROUP LLC bridges the gap between premium athletic manufacturing and the modern consumer. Our mission is to engineer and distribute the world's most accessible high-performance athletic gear through optimized, direct-to-consumer infrastructure.
+        Established as a modern digital holding entity, OAAHFASHIONGROUP LLC bridges the gap between premium athletic manufacturing and the modern consumer. Our mission is to engineer and distribute the world's most accessible high-performance athletic gear through optimized, direct-to-consumer infrastructure and vertically integrated compliance frameworks.
       </p>
     </div>
   </section>
 
-  <!-- ========== STRATEGIC CAPABILITIES ========== -->
-  <section id="capabilities" class="bg-gray-50 py-24 lg:py-32">
+  <!-- ============================ STRATEGIC CAPABILITIES ============================ -->
+  <section id="capabilities" class="bg-gray-50 py-24 lg:py-32 border-y border-gray-100">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
       <div class="max-w-3xl mb-16">
-        <p class="text-gray-500 uppercase tracking-[0.3em] text-xs font-medium mb-6">What We Do</p>
+        <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">What We Do</p>
         <h2 class="text-3xl md:text-5xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
-          Strategic Capabilities
+          Corporate Capabilities
         </h2>
         <p class="mt-6 text-gray-600 text-lg leading-relaxed font-light max-w-2xl">
           A vertically integrated operating platform engineered for compliance, performance, and global reach across every layer of modern digital retail.
@@ -138,34 +176,34 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
 
-        <!-- Capability 1 -->
-        <article class="capability-card bg-white border border-gray-100 p-10 lg:p-12 shadow-sm">
+        <!-- Card 1 -->
+        <article class="capability-card bg-white border border-gray-200 p-10 lg:p-12 shadow-sm">
           <div class="w-14 h-14 flex items-center justify-center bg-gray-900 text-white mb-8">
-            <i class="fa-solid fa-globe text-xl"></i>
+            <i class="fa-solid fa-network-wired text-xl"></i>
           </div>
           <p class="text-gray-400 uppercase tracking-[0.25em] text-xs font-medium mb-3">Capability 01</p>
           <h3 class="text-gray-900 text-2xl font-extrabold tracking-tight mb-4">Digital Infrastructure</h3>
           <div class="w-10 h-px bg-gray-900 mb-6"></div>
           <p class="text-gray-600 text-base leading-relaxed font-light">
-            We build, acquire, and scale high-converting digital storefronts utilizing modern, headless commerce architectures.
+            We build, acquire, and optimize high-converting digital storefronts utilizing modern, headless commerce architectures and secure data protocols.
           </p>
         </article>
 
-        <!-- Capability 2 -->
-        <article class="capability-card bg-white border border-gray-100 p-10 lg:p-12 shadow-sm">
+        <!-- Card 2 -->
+        <article class="capability-card bg-white border border-gray-200 p-10 lg:p-12 shadow-sm">
           <div class="w-14 h-14 flex items-center justify-center bg-gray-900 text-white mb-8">
-            <i class="fa-solid fa-truck-fast text-xl"></i>
+            <i class="fa-solid fa-boxes-packing text-xl"></i>
           </div>
           <p class="text-gray-400 uppercase tracking-[0.25em] text-xs font-medium mb-3">Capability 02</p>
           <h3 class="text-gray-900 text-2xl font-extrabold tracking-tight mb-4">Global Fulfillment</h3>
           <div class="w-10 h-px bg-gray-900 mb-6"></div>
           <p class="text-gray-600 text-base leading-relaxed font-light">
-            Streamlined, vertically integrated supply chains ensuring rapid delivery and rigorous quality control from manufacturer to consumer.
+            Streamlined, vertically integrated supply chains ensuring rapid global delivery, strategic tracking, and rigorous quality control from manufacturer to end consumer.
           </p>
         </article>
 
-        <!-- Capability 3 -->
-        <article class="capability-card bg-white border border-gray-100 p-10 lg:p-12 shadow-sm">
+        <!-- Card 3 -->
+        <article class="capability-card bg-white border border-gray-200 p-10 lg:p-12 shadow-sm">
           <div class="w-14 h-14 flex items-center justify-center bg-gray-900 text-white mb-8">
             <i class="fa-solid fa-chart-line text-xl"></i>
           </div>
@@ -173,7 +211,7 @@
           <h3 class="text-gray-900 text-2xl font-extrabold tracking-tight mb-4">Brand Incubation</h3>
           <div class="w-10 h-px bg-gray-900 mb-6"></div>
           <p class="text-gray-600 text-base leading-relaxed font-light">
-            Data-driven market analysis allows us to identify trends and launch high-performance athletic apparel to targeted demographics.
+            Data-driven market analysis allows us to identify global demand trends and successfully deploy targeted high-performance athletic apparel divisions.
           </p>
         </article>
 
@@ -181,34 +219,34 @@
     </div>
   </section>
 
-  <!-- ========== OPERATIONS ========== -->
+  <!-- ============================ OPERATIONS ============================ -->
   <section id="operations" class="bg-white py-24 lg:py-32">
     <div class="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
       <div class="order-2 lg:order-1">
-        <p class="text-gray-500 uppercase tracking-[0.3em] text-xs font-medium mb-6">Global Operations</p>
+        <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">Global Operations</p>
         <h2 class="text-3xl md:text-5xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
           Logistics &amp; Supply Chain Integrity
         </h2>
         <div class="w-16 h-px bg-gray-900 my-8"></div>
         <p class="text-gray-600 text-lg leading-relaxed font-light mb-8">
-          As a global operator, we maintain strict oversight of our logistics network. We partner directly with top-tier manufacturers to ensure ethical sourcing, rigorous quality control, secure warehousing, and rapid direct-to-consumer fulfillment. This vertically integrated approach guarantees compliance and quality at every touchpoint.
+          As a global operator, we maintain strict oversight of our logistics network. We partner directly with top-tier manufacturers to ensure ethical sourcing, rigorous quality control, secure warehousing, and rapid direct-to-consumer fulfillment. This integrated approach guarantees compliance and quality at every single touchpoint.
         </p>
-        <div class="grid grid-cols-2 gap-8 mt-12 pt-10 border-t border-gray-100">
+        <div class="grid grid-cols-2 gap-8 mt-12 pt-10 border-t border-gray-200">
           <div>
             <div class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">3</div>
-            <p class="mt-2 text-sm text-gray-500 uppercase tracking-wider">Capability Pillars</p>
+            <p class="mt-2 text-sm text-gray-500 uppercase tracking-[0.15em]">Capability Pillars</p>
           </div>
           <div>
             <div class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">100%</div>
-            <p class="mt-2 text-sm text-gray-500 uppercase tracking-wider">Vendor Compliance</p>
+            <p class="mt-2 text-sm text-gray-500 uppercase tracking-[0.15em]">Vendor Compliance</p>
           </div>
           <div>
             <div class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">Global</div>
-            <p class="mt-2 text-sm text-gray-500 uppercase tracking-wider">Fulfillment Network</p>
+            <p class="mt-2 text-sm text-gray-500 uppercase tracking-[0.15em]">Fulfillment Network</p>
           </div>
           <div>
             <div class="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">D2C</div>
-            <p class="mt-2 text-sm text-gray-500 uppercase tracking-wider">Infrastructure</p>
+            <p class="mt-2 text-sm text-gray-500 uppercase tracking-[0.15em]">Infrastructure</p>
           </div>
         </div>
       </div>
@@ -218,19 +256,19 @@
     </div>
   </section>
 
-  <!-- ========== LEADERSHIP ========== -->
-  <section id="leadership" class="bg-gray-50 py-24 lg:py-32">
+  <!-- ============================ LEADERSHIP ============================ -->
+  <section id="leadership" class="bg-gray-50 py-24 lg:py-32 border-y border-gray-100">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
       <div class="max-w-3xl mb-16 text-center mx-auto">
-        <p class="text-gray-500 uppercase tracking-[0.3em] text-xs font-medium mb-6">Leadership</p>
+        <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">Leadership</p>
         <h2 class="text-3xl md:text-5xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
           Executive Leadership
         </h2>
       </div>
 
-      <div class="max-w-4xl mx-auto bg-white border border-gray-100 p-10 lg:p-14 flex flex-col md:flex-row items-center md:items-start gap-10 lg:gap-14">
+      <div class="max-w-4xl mx-auto bg-white border border-gray-200 p-10 lg:p-14 flex flex-col md:flex-row items-center md:items-start gap-10 lg:gap-14 shadow-sm">
         <div class="flex-shrink-0">
-          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" alt="Omar Ahmed Abdelaziz Hasan" class="w-48 h-48 lg:w-56 lg:h-56 object-cover rounded-full shadow-md" />
+          <img src="profile.jpg" alt="Omar Ahmed Abdelaziz Hasan, Managing Director &amp; Founder" class="w-48 h-48 lg:w-56 lg:h-56 object-cover rounded-lg shadow-md border border-gray-200" />
         </div>
         <div class="text-center md:text-left flex-1">
           <p class="text-gray-500 uppercase tracking-[0.25em] text-xs font-medium mb-4">Managing Director &amp; Founder</p>
@@ -241,28 +279,77 @@
           <p class="text-gray-600 text-base md:text-lg leading-relaxed font-light">
             Driving the intersection of technology and retail, Omar established OAAHFASHIONGROUP to streamline the digital commerce experience. With a relentless focus on scalable infrastructure, supply chain integrity, and premium brand curation, he leads the company's vision for the future of global athletic retail.
           </p>
+          <div class="mt-8 flex items-center justify-center md:justify-start">
+            <a href="https://www.linkedin.com/in/omar-abdelaziz-a1084012b" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-5 py-3 border border-gray-300 hover:border-gray-900 hover:bg-gray-900 hover:text-white text-gray-700 text-sm font-medium uppercase tracking-[0.15em] transition">
+              <i class="fa-brands fa-linkedin-in text-base"></i>
+              <span>Connect on LinkedIn</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ========== LEGAL ========== -->
-  <section id="legal" class="bg-white py-24 lg:py-32">
+  <!-- ============================ CORPORATE INQUIRIES ============================ -->
+  <section id="contact" class="bg-white py-24 lg:py-32">
+    <div class="max-w-5xl mx-auto px-6 lg:px-10">
+      <div class="max-w-3xl mb-14">
+        <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">Get In Touch</p>
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
+          Corporate Inquiries
+        </h2>
+        <p class="mt-6 text-gray-600 text-lg leading-relaxed font-light">
+          Contact our corporate management team for vendor partnerships, logistics inquiries, or institutional relations.
+        </p>
+      </div>
+
+      <form action="mailto:hello@oaahfashiongroup.com" method="post" enctype="text/plain" class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div class="md:col-span-1">
+          <label for="fullName" class="block text-xs font-semibold uppercase tracking-[0.2em] text-gray-700 mb-3">Full Name</label>
+          <input type="text" id="fullName" name="Full Name" required placeholder="Jane A. Doe" class="form-input w-full px-4 py-4 bg-white border border-gray-300 text-gray-900 placeholder-gray-400 text-base" />
+        </div>
+        <div class="md:col-span-1">
+          <label for="entity" class="block text-xs font-semibold uppercase tracking-[0.2em] text-gray-700 mb-3">Corporate Entity</label>
+          <input type="text" id="entity" name="Corporate Entity" required placeholder="Company or Institution Name" class="form-input w-full px-4 py-4 bg-white border border-gray-300 text-gray-900 placeholder-gray-400 text-base" />
+        </div>
+        <div class="md:col-span-2">
+          <label for="email" class="block text-xs font-semibold uppercase tracking-[0.2em] text-gray-700 mb-3">Email Address</label>
+          <input type="email" id="email" name="Email Address" required placeholder="name@company.com" class="form-input w-full px-4 py-4 bg-white border border-gray-300 text-gray-900 placeholder-gray-400 text-base" />
+        </div>
+        <div class="md:col-span-2">
+          <label for="message" class="block text-xs font-semibold uppercase tracking-[0.2em] text-gray-700 mb-3">Message</label>
+          <textarea id="message" name="Message" rows="6" required placeholder="Please outline the nature of your inquiry." class="form-input w-full px-4 py-4 bg-white border border-gray-300 text-gray-900 placeholder-gray-400 text-base resize-none"></textarea>
+        </div>
+        <div class="md:col-span-2 flex flex-col md:flex-row md:items-center md:justify-between gap-6 pt-2">
+          <p class="text-xs text-gray-500 leading-relaxed max-w-md">
+            By submitting this form you consent to be contacted by OAAHFASHIONGROUP LLC regarding your inquiry. Submissions are routed directly to <span class="text-gray-700 font-medium">hello@oaahfashiongroup.com</span>.
+          </p>
+          <button type="submit" class="inline-flex items-center justify-center px-10 py-4 bg-gray-900 text-white hover:bg-black text-sm font-semibold uppercase tracking-[0.15em] transition">
+            Submit Inquiry
+            <i class="fa-solid fa-arrow-right ml-3 text-xs"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================ LEGAL & COMPLIANCE ============================ -->
+  <section id="legal" class="bg-gray-50 py-24 lg:py-32 border-t border-gray-100">
     <div class="max-w-5xl mx-auto px-6 lg:px-10">
       <div class="mb-16">
-        <p class="text-gray-500 uppercase tracking-[0.3em] text-xs font-medium mb-6">Legal &amp; Compliance</p>
+        <p class="text-gray-500 uppercase tracking-[0.35em] text-xs font-medium mb-6">Legal &amp; Compliance</p>
         <h2 class="text-3xl md:text-5xl font-extrabold tracking-tightest text-gray-900 leading-[1.1]">
           Governance, Compliance &amp; Disclosures
         </h2>
         <p class="mt-6 text-gray-600 text-lg leading-relaxed font-light max-w-3xl">
-          OAAHFASHIONGROUP LLC operates in full accordance with applicable corporate, consumer protection, and data privacy regulations. The disclosures below summarize our standing policies.
+          OAAHFASHIONGROUP LLC operates in full accordance with applicable corporate, consumer protection, financial, and data privacy regulations. The disclosures below summarize our standing policies and binding commitments.
         </p>
       </div>
 
-      <div class="divide-y divide-gray-200 border-t border-b border-gray-200">
+      <div class="divide-y divide-gray-200 border-t border-b border-gray-200 bg-white">
 
         <!-- Privacy Policy -->
-        <details class="group py-8" open>
+        <details class="group p-8 lg:p-10" open>
           <summary class="flex items-center justify-between">
             <div class="flex items-center gap-6">
               <span class="text-xs font-mono text-gray-400">01</span>
@@ -272,19 +359,25 @@
           </summary>
           <div class="mt-6 pl-0 md:pl-16 text-gray-600 leading-relaxed font-light space-y-4">
             <p>
-              OAAHFASHIONGROUP LLC is committed to safeguarding the personal information of its customers, partners, and stakeholders. Our data practices are aligned with global data protection regulations, including the European Union General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
+              OAAHFASHIONGROUP LLC ("the Company") is committed to safeguarding the personal information of its customers, vendors, corporate partners, and stakeholders. Our data handling practices are aligned with all applicable global data protection regulations, including the European Union General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA), and any other state, federal, or international statutes governing the processing of personal information.
             </p>
             <p>
-              We adhere to the principle of data minimization, collecting only information strictly necessary for transactional processing, regulatory compliance, and operational continuity. All payment transactions are routed through PCI-DSS compliant payment processors; we do not store cardholder data on our servers. Personal data is encrypted at rest and in transit using industry-standard cryptographic protocols.
+              The Company adheres strictly to the principle of <strong class="text-gray-900 font-semibold">data minimization</strong>. We collect only the information strictly necessary for transactional processing, regulatory compliance, fraud prevention, and the operational continuity of the Company's digital properties. We do not collect, retain, or process special categories of personal data unless explicitly required by law.
             </p>
             <p>
-              Data subjects retain the right to access, correct, or request deletion of their personal information at any time. Requests may be directed to <a href="mailto:hello@oaahfashiongroup.com" class="underline hover:text-gray-900">hello@oaahfashiongroup.com</a>.
+              All website traffic is routed through industry-standard <strong class="text-gray-900 font-semibold">Secure Sockets Layer (SSL) / Transport Layer Security (TLS) encryption</strong>. Personal data is encrypted both at rest and in transit using contemporary cryptographic protocols. All payment transactions are processed through PCI-DSS Level 1 compliant payment service providers; the Company does not store, process, or transmit cardholder data on its own servers.
+            </p>
+            <p>
+              OAAHFASHIONGROUP LLC <strong class="text-gray-900 font-semibold">does not sell, rent, or share corporate partner data, customer data, or any personally identifiable information with unaffiliated third parties</strong> for marketing or commercial purposes. Data is shared only with authorized service providers operating under binding data processing agreements, and solely to fulfill the operational and legal obligations of the Company.
+            </p>
+            <p>
+              Data subjects retain the right to access, correct, port, restrict, or request deletion of their personal information at any time, subject to applicable legal retention requirements. Verified requests may be directed to <a href="mailto:hello@oaahfashiongroup.com" class="underline hover:text-gray-900 text-gray-700">hello@oaahfashiongroup.com</a> and will be processed within the statutory response windows mandated by the applicable jurisdiction.
             </p>
           </div>
         </details>
 
         <!-- Terms of Service -->
-        <details class="group py-8">
+        <details class="group p-8 lg:p-10">
           <summary class="flex items-center justify-between">
             <div class="flex items-center gap-6">
               <span class="text-xs font-mono text-gray-400">02</span>
@@ -294,19 +387,25 @@
           </summary>
           <div class="mt-6 pl-0 md:pl-16 text-gray-600 leading-relaxed font-light space-y-4">
             <p>
-              Access to and use of any digital property operated by OAAHFASHIONGROUP LLC, including its subsidiary retail divisions, constitutes acceptance of these Terms of Service. All trademarks, logos, brand identities, product imagery, and original written content remain the exclusive intellectual property of OAAHFASHIONGROUP LLC or its respective licensors.
+              Access to and use of any digital property, corporate website, communication channel, or subsidiary storefront operated by OAAHFASHIONGROUP LLC constitutes legal acceptance of these Terms of Service. Users who do not agree with any portion of these Terms must immediately discontinue use of the Company's digital properties.
             </p>
             <p>
-              Unauthorized reproduction, redistribution, or commercial exploitation of company intellectual property is strictly prohibited. These Terms shall be governed by and construed in accordance with the laws of the State of New Mexico, United States of America, without regard to its conflict of laws principles.
+              <strong class="text-gray-900 font-semibold">Intellectual Property.</strong> All trademarks, service marks, trade names, logos, brand identities, product imagery, written content, source code, design elements, and proprietary methodologies displayed on or associated with the Company's digital properties remain the exclusive intellectual property of OAAHFASHIONGROUP LLC or its respective licensors. Unauthorized reproduction, redistribution, derivative use, or commercial exploitation of any such intellectual property is strictly prohibited and will be pursued to the fullest extent permitted by applicable law.
             </p>
             <p>
-              To the maximum extent permitted by applicable law, OAAHFASHIONGROUP LLC, its officers, directors, employees, and affiliates shall not be liable for any indirect, incidental, special, consequential or punitive damages arising out of or related to the use of company services or digital properties.
+              <strong class="text-gray-900 font-semibold">Limitation of Liability.</strong> To the maximum extent permitted by applicable law, OAAHFASHIONGROUP LLC, its officers, directors, members, managers, employees, agents, affiliates, and licensors shall not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages — including but not limited to loss of profits, loss of data, business interruption, or loss of goodwill — arising out of or in any way connected with the use of, or inability to use, the Company's services or digital properties.
+            </p>
+            <p>
+              <strong class="text-gray-900 font-semibold">Indemnification.</strong> Users agree to defend, indemnify, and hold harmless OAAHFASHIONGROUP LLC and its affiliated parties from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to a user's violation of these Terms or misuse of the Company's services.
+            </p>
+            <p>
+              <strong class="text-gray-900 font-semibold">Governing Law.</strong> These Terms shall be governed by and construed in accordance with the laws of the <strong class="text-gray-900 font-semibold">State of New Mexico, United States of America</strong>, without regard to its conflict of laws principles. Any dispute arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the state and federal courts located in Bernalillo County, New Mexico.
             </p>
           </div>
         </details>
 
         <!-- Supply Chain Transparency -->
-        <details class="group py-8">
+        <details class="group p-8 lg:p-10">
           <summary class="flex items-center justify-between">
             <div class="flex items-center gap-6">
               <span class="text-xs font-mono text-gray-400">03</span>
@@ -316,29 +415,41 @@
           </summary>
           <div class="mt-6 pl-0 md:pl-16 text-gray-600 leading-relaxed font-light space-y-4">
             <p>
-              OAAHFASHIONGROUP LLC is committed to ethical labor practices and full vendor compliance across every tier of our global supply chain. All manufacturing and logistics partners are required to operate in accordance with applicable labor laws, internationally recognized human rights standards, and the company's Supplier Code of Conduct.
+              OAAHFASHIONGROUP LLC is committed to ethical labor practices and full vendor compliance across every tier of our global supply chain. The Company maintains a formal <strong class="text-gray-900 font-semibold">zero-tolerance policy</strong> with respect to forced labor, indentured labor, child labor, human trafficking, and any other practice that violates internationally recognized human rights standards or applicable labor laws.
             </p>
             <p>
-              We conduct ongoing diligence on our manufacturing partnerships to confirm adherence to fair wage requirements, safe working conditions, and the prohibition of forced or child labor. Material non-compliance results in immediate corrective action and, where warranted, termination of the vendor relationship.
+              All manufacturing partners, logistics providers, and third-party vendors engaged by the Company are required to operate in strict accordance with the OAAHFASHIONGROUP <strong class="text-gray-900 font-semibold">Supplier Code of Conduct</strong>. This includes, without limitation, adherence to fair wage requirements, lawful working hours, safe and humane working conditions, freedom of association, and the absolute prohibition of any form of involuntary labor.
+            </p>
+            <p>
+              The Company conducts <strong class="text-gray-900 font-semibold">strict vendor compliance screening</strong> prior to onboarding any new supplier and performs <strong class="text-gray-900 font-semibold">annual operational audits</strong> on its active vendor network. Audit findings are reviewed by management; material non-compliance results in immediate corrective action plans and, where warranted, the termination of the vendor relationship.
+            </p>
+            <p>
+              OAAHFASHIONGROUP LLC further commits to ongoing diligence regarding the provenance of raw materials, the legitimacy of manufacturing facilities, and the integrity of intermediary logistics partners, in alignment with internationally recognized supply chain transparency frameworks.
             </p>
           </div>
         </details>
 
-        <!-- Corporate Disclosures -->
-        <details class="group py-8">
+        <!-- AML & KYC Policy -->
+        <details class="group p-8 lg:p-10">
           <summary class="flex items-center justify-between">
             <div class="flex items-center gap-6">
               <span class="text-xs font-mono text-gray-400">04</span>
-              <h3 class="text-xl md:text-2xl font-bold tracking-tight text-gray-900">Corporate Disclosures</h3>
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight text-gray-900">Anti-Money Laundering (AML) &amp; KYC Policy</h3>
             </div>
             <span class="accordion-icon text-2xl text-gray-400 font-light">+</span>
           </summary>
           <div class="mt-6 pl-0 md:pl-16 text-gray-600 leading-relaxed font-light space-y-4">
             <p>
-              OAAHFASHIONGROUP LLC is a registered limited liability company in good standing in the State of New Mexico, United States of America (Filing No. 0002355827). The company maintains its registered corporate office at 8206 Louisiana Blvd NE, STE A #2017, Albuquerque, NM 87113.
+              OAAHFASHIONGROUP LLC affirms its full and ongoing commitment to combating money laundering, terrorist financing, sanctions evasion, and financial fraud. The Company cooperates fully with <strong class="text-gray-900 font-semibold">tier-1 financial institutions</strong>, regulated payment processors, and competent governmental authorities in all matters pertaining to anti-money laundering (AML) and counter-terrorist financing (CTF) compliance.
             </p>
             <p>
-              For corporate verification, banking due diligence, underwriting requests, or compliance correspondence, please contact <a href="mailto:hello@oaahfashiongroup.com" class="underline hover:text-gray-900">hello@oaahfashiongroup.com</a>.
+              The Company strictly enforces <strong class="text-gray-900 font-semibold">Know-Your-Customer (KYC) and Know-Your-Business (KYB) identity verification protocols</strong>, including, where applicable, the collection and verification of beneficial ownership information, government-issued identification, corporate registration documents, and source-of-funds documentation, in accordance with applicable banking partner requirements and regulatory mandates.
+            </p>
+            <p>
+              OAAHFASHIONGROUP LLC complies with all applicable global anti-fraud mandates, including, without limitation, the U.S. Bank Secrecy Act (BSA), the USA PATRIOT Act, sanctions programs administered by the U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC), and the Financial Action Task Force (FATF) recommendations as adopted within applicable jurisdictions.
+            </p>
+            <p>
+              The Company maintains internal procedures designed to identify, investigate, and where appropriate report suspicious activity through its banking and payment processing partners. OAAHFASHIONGROUP LLC <strong class="text-gray-900 font-semibold">does not knowingly conduct business with any sanctioned individual, entity, or jurisdiction</strong>, and engages exclusively with regulated financial counterparties for the processing of corporate and commercial transactions.
             </p>
           </div>
         </details>
@@ -347,30 +458,27 @@
     </div>
   </section>
 
-  <!-- ========== FOOTER ========== -->
+  <!-- ============================ FOOTER ============================ -->
   <footer class="bg-gray-900 text-gray-300">
     <div class="max-w-7xl mx-auto px-6 lg:px-10 py-20">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-        <div class="md:col-span-2">
-          <p class="text-white text-xl font-extrabold tracking-tightest">
-            OAAHFASHIONGROUP <span class="text-gray-500 font-light">LLC</span>
-          </p>
-          <p class="mt-6 text-gray-400 text-sm leading-relaxed font-light max-w-md">
-            A premier e-commerce infrastructure and brand management company curating high-performance athletic apparel storefronts for the global market.
-          </p>
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
 
+        <!-- Left: Logo + Address -->
         <div>
-          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mb-5">Contact</p>
-          <ul class="space-y-3 text-sm text-gray-400">
-            <li>
-              <a href="mailto:hello@oaahfashiongroup.com" class="hover:text-white transition">hello@oaahfashiongroup.com</a>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mb-5">Corporate Address</p>
+          <div class="flex items-center gap-3 mb-6">
+            <svg width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="64" height="64" fill="#ffffff"/>
+              <rect x="14" y="14" width="14" height="14" fill="none" stroke="#111827" stroke-width="3"/>
+              <rect x="36" y="14" width="14" height="14" fill="none" stroke="#111827" stroke-width="3"/>
+              <rect x="14" y="36" width="14" height="14" fill="none" stroke="#111827" stroke-width="3"/>
+              <line x1="36" y1="36" x2="50" y2="50" stroke="#111827" stroke-width="3" stroke-linecap="square"/>
+              <line x1="50" y1="36" x2="36" y2="50" stroke="#111827" stroke-width="3" stroke-linecap="square"/>
+            </svg>
+            <span class="text-white text-base font-extrabold tracking-tightest">
+              OAAHFASHIONGROUP <span class="text-gray-500 font-light">LLC</span>
+            </span>
+          </div>
+          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mb-4">Corporate Address</p>
           <address class="not-italic text-sm text-gray-400 leading-relaxed font-light">
             8206 Louisiana Blvd NE,<br/>
             STE A #2017,<br/>
@@ -378,16 +486,48 @@
             United States
           </address>
         </div>
+
+        <!-- Center: Contact + LinkedIn -->
+        <div>
+          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mb-4">Contact</p>
+          <ul class="space-y-3 text-sm text-gray-400">
+            <li>
+              <a href="mailto:hello@oaahfashiongroup.com" class="hover:text-white transition inline-flex items-center gap-3">
+                <i class="fa-solid fa-envelope text-gray-500"></i>
+                <span>hello@oaahfashiongroup.com</span>
+              </a>
+            </li>
+          </ul>
+          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mt-8 mb-4">Follow</p>
+          <a href="https://www.linkedin.com/in/omar-abdelaziz-a1084012b" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-5 py-3 border border-gray-700 hover:border-white hover:bg-white hover:text-gray-900 text-gray-300 text-xs font-medium uppercase tracking-[0.15em] transition">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <!-- Right: Quick Links -->
+        <div>
+          <p class="text-white text-xs uppercase tracking-[0.25em] font-semibold mb-4">Navigate</p>
+          <ul class="space-y-3 text-sm text-gray-400">
+            <li><a href="#mission" class="hover:text-white transition">Mission</a></li>
+            <li><a href="#capabilities" class="hover:text-white transition">Capabilities</a></li>
+            <li><a href="#operations" class="hover:text-white transition">Operations</a></li>
+            <li><a href="#leadership" class="hover:text-white transition">Leadership</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Corporate Inquiries</a></li>
+            <li><a href="#legal" class="hover:text-white transition">Legal &amp; Compliance</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <p class="text-xs text-gray-500 leading-relaxed">
           &copy; 2026 OAAHFASHIONGROUP LLC. All rights reserved. Registered in the State of New Mexico | Filing No. 0002355827.
         </p>
-        <ul class="flex flex-wrap gap-6 text-xs text-gray-500 uppercase tracking-wider">
+        <ul class="flex flex-wrap gap-6 text-xs text-gray-500 uppercase tracking-[0.15em]">
           <li><a href="#legal" class="hover:text-white transition">Privacy</a></li>
           <li><a href="#legal" class="hover:text-white transition">Terms</a></li>
-          <li><a href="#legal" class="hover:text-white transition">Compliance</a></li>
+          <li><a href="#legal" class="hover:text-white transition">Supply Chain</a></li>
+          <li><a href="#legal" class="hover:text-white transition">AML / KYC</a></li>
         </ul>
       </div>
     </div>
@@ -395,10 +535,21 @@
 
   <script>
     // Mobile menu toggle
-    const toggle = document.getElementById('mobile-toggle');
-    const menu = document.getElementById('mobile-menu');
-    toggle?.addEventListener('click', () => menu.classList.toggle('hidden'));
-    menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.add('hidden')));
+    (function () {
+      const toggle = document.getElementById('mobile-toggle');
+      const menu = document.getElementById('mobile-menu');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', function () {
+        const isHidden = menu.classList.toggle('hidden');
+        toggle.setAttribute('aria-expanded', String(!isHidden));
+      });
+      menu.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          menu.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    })();
   </script>
 </body>
 </html>
